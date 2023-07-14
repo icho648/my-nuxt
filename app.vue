@@ -1,5 +1,5 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <v-btn depressed color="info"> Vuetify3</v-btn>
   </div>
 </template>

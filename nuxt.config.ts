@@ -2,6 +2,14 @@
 export default defineNuxtConfig({
   runtimeConfig: {},
   typescript: {
-    strict: true,
+    strict: true
   },
-});
+  modules: [
+    // ...
+    '@pinia/nuxt'
+  ],
+  css: ['@/assets/scss/style.scss'],
+  build: {
+    transpile: ['vuetify']
+  }
+})
